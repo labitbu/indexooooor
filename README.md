@@ -1,8 +1,8 @@
 # labitbu indexooooooor
 
-Here are a few labitbu stats. There are some more interesting things in regards to "uniqueness" but you guys can figure that out if u care. I just listed some traits i found interesting. I will add more for colours soon.
+Here are a few labitbu stats. There are some more interesting things in regards to "uniqueness" but you guys can figure that out if you care. I just listed some traits I found interesting. I will add more for colors soon.
 
-the full DB and images are in the `labitbu_data.zip` folder in this repo.
+The full DB and images are in the `labitbu_data.zip` folder in this repo.
 
 ## General Info
 | Metric | Value |
@@ -80,7 +80,7 @@ the full DB and images are in the `labitbu_data.zip` folder in this repo.
 cargo run
 ```
 
-### To generate tratis 
+### To generate traits 
 
 ```bash
 cargo run -- --get-traits
@@ -92,7 +92,7 @@ cargo run -- --get-traits
 sqlite3 labitbu.sqlite -json "SELECT txid FROM tx_data ORDER BY id LIMIT 10000;" > labitbu.json
 ```
 
-### run get_sats.sh script against a pathology node 
+### Run get_sats.sh script against a pathology node 
 
 - https://github.com/labitbu/pathologies
 
